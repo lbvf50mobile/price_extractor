@@ -10,3 +10,7 @@ I need simple PHP script that will return "Product name" and "Product price" fro
 - [Offer](http://schema.org/Offer)
     - [Price](http://schema.org/price)
 - https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/
+
+## Algorithm.
+
+1. Get the html content of the page and deliver into the script variable.

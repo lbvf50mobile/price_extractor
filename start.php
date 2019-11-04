@@ -2,7 +2,7 @@
 echo "This is a price extractor\n";
 $url = "https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/";
 
-echo "Scaning urs: $url\n";
+echo "Scaning url: $url\n";
 
 $html = file_get_contents($url);
 

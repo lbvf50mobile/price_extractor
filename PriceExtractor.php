@@ -1,5 +1,11 @@
 <?php
 class PriceExtractor{
+    public $first_name = null;
+    public $first_price = null;
+    function __construct(){
+        $this->names_price_tree = [];
+        $this->names_price_row = [];
+    }
     function getNamesAndPrices($html){
         // Extract scripts that have: <script type="application/ld+json">
             $dom = new DOMDocument();
@@ -15,7 +21,7 @@ class PriceExtractor{
                     foreach($arr['offers'] as $offer){
                         if(array_key_exists('price', $offer)){
                             $price = $offer['price'];
-                            array_push($result_array, $price);
+                            array_push($result_array[$name], $price);
                         }
                     }
                 }
@@ -31,6 +37,22 @@ class PriceExtractor{
                     }
                 }   
             }
+            $this->names_price_tree = $result_array;
+            $this->namesPricesPairs();
             return $result_array;
+    }
+    function namesPricesPairs(){
+        $this->first_name = null;
+        $this->first_price = null;
+        $this->names_price_row = [];
+        foreach($this->names_price_tree as $name=>$arr){
+            echo "\n--------------\n";
+            var_dump($name);
+            echo "\n--------------\n";
+            var_dump($arr);
+            echo "\n--------------\n";
+            
+           
+        }
     }
 }

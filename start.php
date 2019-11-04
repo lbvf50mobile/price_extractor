@@ -12,14 +12,23 @@ $dom = new DOMDocument();
 $xpath = new DOMXpath($dom);
 $scripts = $xpath->query("//script[@type='application/ld+json']");
 
+$result_array = [];
+
 echo "Amounts of applicaiton/ld+json: $scripts->length\n";
 $checker = function($arr,$key,$value){
     return array_key_exists($key,$arr) &&  $value == $arr[$key]; 
 };
+
+
 foreach ($scripts as $node) {
     $schema = json_decode($node->nodeValue, true);
     var_dump($schema);
     if( $checker($schema, "@context", 'https://schema.org/')){
-        echo "True";
+        if( $checker($schema, "@type", 'Product') && array_key_exists('name', $schema)){
+            $new_array = [];
+            $result_array[$schema['name']] = $new_array;
+        }
     }   
 }
+
+var_dump($result_array);

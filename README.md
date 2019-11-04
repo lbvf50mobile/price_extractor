@@ -14,3 +14,4 @@ I need simple PHP script that will return "Product name" and "Product price" fro
 ## Algorithm.
 
 1. Get the html content of the page and deliver into the script variable.
+2. [Extract](https://www.coralnodes.com/parsing-html-in-php/) all `<script type="application/ld+json">` elements from this html. Using [xpath](https://www.w3schools.com/xml/xml_xpath.asp) = `//script[@type='application/ld+json']`

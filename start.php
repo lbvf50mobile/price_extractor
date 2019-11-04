@@ -18,6 +18,16 @@ echo "Amounts of applicaiton/ld+json: $scripts->length\n";
 $checker = function($arr,$key,$value){
     return array_key_exists($key,$arr) &&  $value == $arr[$key]; 
 };
+$prices_extractor_from_offers = function($arr, $name, &$result_array){
+    if(array_key_exists('offers', $arr) && is_array($arr['offers'])){
+        foreach($arr['offers'] as $offer){
+            if(array_key_exists('price', $offer)){
+                $price = $offer['price'];
+                array_push($result_array, $price);
+            }
+        }
+    }
+};
 
 
 foreach ($scripts as $node) {
@@ -25,8 +35,9 @@ foreach ($scripts as $node) {
     var_dump($schema);
     if( $checker($schema, "@context", 'https://schema.org/')){
         if( $checker($schema, "@type", 'Product') && array_key_exists('name', $schema)){
-            $new_array = [];
-            $result_array[$schema['name']] = $new_array;
+            $name = $schema['name'];
+            $result_array[$name] = [];
+            $prices_extractor_from_offers($schema, $name, $result_array);
         }
     }   
 }

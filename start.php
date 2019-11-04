@@ -13,3 +13,7 @@ $xpath = new DOMXpath($dom);
 $scripts = $xpath->query("//script[@type='application/ld+json']");
 
 echo "Amounts of applicaiton/ld+json: $scripts->length";
+
+foreach ($scripts as $node) {
+    print $node->nodeValue;
+}

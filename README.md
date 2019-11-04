@@ -1,0 +1,12 @@
+# Rich snippet test tool
+
+I need simple PHP script that will return "Product name" and "Product price" from given url by reading schema (rich snippets from that url).
+
+## Urls
+
+- [Schema main documentation](http://schema.org/docs/gs.html)
+- [Product](http://schema.org/Product)
+    - [Name](http://schema.org/name)
+- [Offer](http://schema.org/Offer)
+    - [Price](http://schema.org/price)
+- https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/

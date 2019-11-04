@@ -11,7 +11,11 @@ I need simple PHP script that will return "Product name" and "Product price" fro
     - [Price](http://schema.org/price)
 - https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/
 
-## Algorithm.
+## Usage
+
+`php start.php` - just run in CLI `start.php` scrip.
+
+## Algorithm
 
 1. Get the html content of the page and deliver into the script variable.
 2. [Extract](https://www.coralnodes.com/parsing-html-in-php/) all `<script type="application/ld+json">` elements from this html. Using [xpath](https://www.w3schools.com/xml/xml_xpath.asp) = `//script[@type='application/ld+json']`

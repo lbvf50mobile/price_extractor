@@ -11,4 +11,7 @@ include('PriceExtractor.php');
 $extractor = new PriceExtractor();
 $result_array = $extractor->getNamesAndPrices($html);
 
+echo "Product name: $extractor->first_name \n";
+echo "Product price: $extractor->first_price \n";
+
 print_r($result_array);

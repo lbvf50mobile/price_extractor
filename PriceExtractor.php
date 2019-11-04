@@ -41,18 +41,22 @@ class PriceExtractor{
             $this->namesPricesPairs();
             return $result_array;
     }
+    function fillFirstPricename(){
+        if(array_key_exists(0,$this->names_price_row)){
+            $arr = $this->names_price_row[0];
+            $this->first_name = $arr[0];
+            $this->first_price = $arr[1];
+        }
+    }
     function namesPricesPairs(){
         $this->first_name = null;
         $this->first_price = null;
         $this->names_price_row = [];
         foreach($this->names_price_tree as $name=>$arr){
-            echo "\n--------------\n";
-            var_dump($name);
-            echo "\n--------------\n";
-            var_dump($arr);
-            echo "\n--------------\n";
-            
-           
+            foreach($arr as $price){
+                array_push($this->names_price_row,[$name,$price]);
+            }
         }
+        $this->fillFirstPricename();
     }
 }

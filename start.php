@@ -12,8 +12,14 @@ $dom = new DOMDocument();
 $xpath = new DOMXpath($dom);
 $scripts = $xpath->query("//script[@type='application/ld+json']");
 
-echo "Amounts of applicaiton/ld+json: $scripts->length";
-
+echo "Amounts of applicaiton/ld+json: $scripts->length\n";
+$checker = function($arr,$key,$value){
+    return array_key_exists($key,$arr) &&  $value == $arr[$key]; 
+};
 foreach ($scripts as $node) {
-    print $node->nodeValue;
+    $schema = json_decode($node->nodeValue, true);
+    var_dump($schema);
+    if( $checker($schema, "@context", 'https://schema.org/')){
+        echo "True";
+    }   
 }

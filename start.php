@@ -19,7 +19,8 @@ foreach($html_cache as $key => $element){
     echo $key."----------------------\n";
     echo "TYPE: $element->type \n";
     echo "SOURCE: $element->source \n";
-    echo "HTML: $element->html \n";
+    echo "CACHE_FILE_NAME: " . $element->getCacheName() ." \n";
+    // echo "HTML: $element->html \n";
 }
 
 /*

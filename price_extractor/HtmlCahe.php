@@ -41,6 +41,9 @@ class CachedElemet {
         $this->setHtml();
        
     }
+    public function getCacheName(){
+        return basename($this->cache_file_name);
+    }
 
     protected function setHtml(){
         $this->html = $this->getHtml();
@@ -57,6 +60,7 @@ class CachedElemet {
         $this->cache_file_name = $this->cache_dir.'/'.$this->cache_file_name;
     }
     protected function getHtml(){
+        $this->defineCacheFileName();
         if(file_exists($this->cache_file_name)){
             return file_get_contents($this->cache_file_name);
         }else{

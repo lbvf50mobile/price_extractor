@@ -9,3 +9,4 @@
     - **Puropse of this task: 1) reduce amount of testing time do not leach the HTML from the internet. 2) Ability to create test cases myslef for examile a case when Offerst could have array of be a single state object saved by this key.**
 - `14:01` Start implementing.
     - now working with https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/ requires 2 seconds
+    - `15:55` now after the cache the time of wokring is 0.1 sec - 20 times faster;

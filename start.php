@@ -5,6 +5,8 @@ include('price_extractor/HtmlCahe.php');
 
 $sources_list = [
     "https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/",
+    "https://pcfoto.biz/boya-by-dmr7.html",
+    "https://dijaspora.shop/s-box-plb-2044-nosac-za-zakrivljene-ekrane-3e2cf1a6-e621-3591-87f4-2194fbdc4886",
 ];
 $html_cache = new PriceExtractor\Cache\HtmlCache($sources_list);
 

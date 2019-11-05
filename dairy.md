@@ -22,4 +22,14 @@
 - `17:19` Implementing
     -`18:06` create class that uses ohter classes for parsing, an interface is created.
     -`19:16` add JSON parsing.
+    - `19:36` Wrote a documentation, now working with `https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/` it has `itemtype="http://schema.org/Product"` it is a Microdata `http://schema.org/Offer`
+        - itemtype="http://schema.org/Product"
+        - itemprop="name"
+        - http://schema.org/Offer
+        - itemtype="http://schema.org/Offer"
+        - itemprop="price"
+- I get an idea how select what I need to select, it seach in tree and rize up till the name that would be a cool thing.
+- `20:06` start to imlement `Microdata`. 
+    - https://pcfoto.biz/boya-by-dmr7.html
+    - https://dijaspora.shop/s-box-plb-2044-nosac-za-zakrivljene-ekrane-3e2cf1a6-e621-3591-87f4-2194fbdc4886 
     

@@ -9,7 +9,13 @@ I need simple PHP script that will return "Product name" and "Product price" fro
     - [Name](http://schema.org/name)
 - [Offer](http://schema.org/Offer)
     - [Price](http://schema.org/price)
+
+## Testing URLS
+
 - https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/
+- https://dijaspora.shop/s-box-plb-2044-nosac-za-zakrivljene-ekrane-3e2cf1a6-e621-3591-87f4-2194fbdc4886
+- https://pcfoto.biz/boya-by-dmr7.html
+- https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/
 
 ## Usage
 

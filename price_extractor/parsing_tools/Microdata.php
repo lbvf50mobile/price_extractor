@@ -15,14 +15,9 @@ class Microdata{
     }
     function test(){
         if($this->check_for_product()){
-            $this->extractNameAndPrice();
             return true;
         };
         return false;
-    }
-    function extractNameAndPrice(){
-        $this->name = "This is Microdata";
-        $this->price = 10000;
     }
     protected function check_for_product(){
         if($this->get_products() > 0){
@@ -41,7 +36,30 @@ class Microdata{
         return count($this->products);
     }
     protected function valid_product($node){
-        return true;
+        if($this->has_name($node) && $this->has_price($node)){
+            return true;
+        }
+        return false;
+    }
+    protected function has_name($node){
+        $select_query = "//*[@itemprop='name']";
+        $answer = $this->xpath->query($select_query,$node);
+        if(count($answer) > 0){
+            $this->name =  $answer[0]->nodeValue;
+            return true;
+
+        }
+        return false;
+    }
+    protected function has_price($node){
+        $select_query = "//*[@itemprop='price']";
+        $answer = $this->xpath->query($select_query,$node);
+        if(count($answer) > 0){
+            $this->price =  $answer[0]->nodeValue;
+            return true;
+
+        }
+        return false;
     }
    
 }

@@ -5,6 +5,9 @@ class Microdata{
     public $xpath;
     public $name;
     public $price;
+
+    protected $products;
+
     function __construct($dom,$xpath){
         $this->dom = $dom;
         $this->xpath = $xpath;
@@ -20,8 +23,18 @@ class Microdata{
         $this->price = 10000;
     }
     protected function check_for_product(){
-        $query = "count(//*[@itemtype='http://schema.org/Product'])";
-        $entries = $this->xpath->evaluate($query, $this->dom);
-        echo "There are $entries products\n";
+        
+        if($this->get_products() > 0){
+            foreach($this->products as $product){
+                echo "counting products \n";
+            }
+        }
+       
+        
+    }
+    protected function get_products(){
+        $select_query = "//*[@itemtype='http://schema.org/Product']";
+        $this->products = $this->xpath->query($select_query);
+        return count($this->products);
     }
 }

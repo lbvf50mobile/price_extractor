@@ -46,6 +46,9 @@ class Microdata{
         $answer = $this->xpath->query($select_query,$node);
         if(count($answer) > 0){
             $this->name =  $answer[0]->nodeValue;
+            if(empty($this->name)){
+                $this->name = $answer[0]->attributes->getNamedItem('content')->nodeValue;
+            }
             return true;
 
         }
@@ -56,6 +59,9 @@ class Microdata{
         $answer = $this->xpath->query($select_query,$node);
         if(count($answer) > 0){
             $this->price =  $answer[0]->nodeValue;
+            if(empty($this->price)){
+                $this->price = $answer[0]->attributes->getNamedItem('content')->nodeValue;
+            }
             return true;
 
         }

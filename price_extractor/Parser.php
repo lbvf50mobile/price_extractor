@@ -39,7 +39,6 @@ class Parser{
         array_push($this->parse_tools_list,new \ParseTools\ParseToolDump($this->dom,$this->xpath));
         array_push($this->parse_tools_list,new \ParseTools\JsonLd($this->dom,$this->xpath));
         array_push($this->parse_tools_list,new \ParseTools\Microdata($this->dom,$this->xpath));
-        var_dump(count($this->parse_tools_list));
     }
 
     protected function selectAppropriateParseObject(){

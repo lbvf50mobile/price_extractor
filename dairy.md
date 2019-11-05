@@ -8,3 +8,4 @@
     - object is [Traversable](https://www.php.net/manual/en/class.traversable.php) loop over it. On each iteration it has **html** and **type** properties.
     - **Puropse of this task: 1) reduce amount of testing time do not leach the HTML from the internet. 2) Ability to create test cases myslef for examile a case when Offerst could have array of be a single state object saved by this key.**
 - `14:01` Start implementing.
+    - now working with https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/ requires 2 seconds

@@ -35,4 +35,5 @@
 - `count(//*[@itemtype='http://schema.org/Product'])`  https://stackoverflow.com/a/54577243/8574922
 
 - `21:20` continue with xPath.
+- `22:02` Done with microdata 2 hrs
     

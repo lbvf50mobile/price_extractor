@@ -55,6 +55,7 @@ foreach($html_cache as $key => $element){
 2. Object of `Parser` class comprice set of `ParseTools` object, each of them has a `test` method. This method evaluates "Do it possbile to parse incoming html?" At current moment 2 class existed
     -  ParseToolDump - class for developers needs.
     - JsonLd - class for parsing JsonLd implementation of schema.
+    - **Microdata** class to parce Mircrodata pages.
 
 ```php
 

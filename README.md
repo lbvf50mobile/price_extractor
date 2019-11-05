@@ -21,3 +21,7 @@ I need simple PHP script that will return "Product name" and "Product price" fro
 2. [Extract](https://www.coralnodes.com/parsing-html-in-php/) all `<script type="application/ld+json">` elements from this html. Using [xpath](https://www.w3schools.com/xml/xml_xpath.asp) = `//script[@type='application/ld+json']`
 3. Iterate over all `<script type="application/ld+json">`  that been found, and select ones that has `"@context" = 'https://schema.org/'`
 4. If this **ld+json** has a `"@type" == 'Product'` and have a `name` start to collect prices for this **name** from **offers**
+
+## TODO and Dairy
+
+[Set of task and implementation of them](dairy.md) - here is a journal of the project.

@@ -15,13 +15,19 @@ $sources_list = [
 ];
 $html_cache = new PriceExtractor\Cache\HtmlCache($sources_list);
 
+
+
 foreach($html_cache as $key => $element){
     echo $key."----------------------\n";
     echo "TYPE: $element->type \n";
     echo "SOURCE: $element->source \n";
     echo "CACHE_FILE_NAME: " . $element->getCacheName() ." \n";
+    
     // echo "HTML: $element->html \n";
 }
+
+// !important! It is possble to clear the cache folder.
+// $html_cache->clearCacheDirecotry();
 
 /*
 $extractor = new PriceExtractor();

@@ -7,6 +7,7 @@
     - Set list of *urls* and *files* into the constructor
     - object is [Traversable](https://www.php.net/manual/en/class.traversable.php) loop over it. On each iteration it has **html** and **type** properties.
     - **Puropse of this task: 1) reduce amount of testing time do not leach the HTML from the internet. 2) Ability to create test cases myslef for examile a case when Offerst could have array of be a single state object saved by this key.**
-- `14:01` Start implementing.
+- `14:01` Start implementing. **[spend 2hrs:20minuts on caching]**
     - now working with https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/ requires 2 seconds
     - `15:55` now after the cache the time of wokring is 0.1 sec - 20 times faster;
+    - `16:20` task is done.

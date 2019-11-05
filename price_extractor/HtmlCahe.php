@@ -9,6 +9,9 @@ class HtmlCache implements \IteratorAggregate{
         $this->check_cache_dir_exists();
         $this->fill_results();
     }
+    public function clearCacheDirecotry(){
+        delete_files($this->cache_dir);
+    }
     function check_cache_dir_exists(){
         if(!file_exists($this->cache_dir)){
             mkdir($this->cache_dir);
@@ -76,4 +79,20 @@ class CachedElemet {
             throw new Exception('Unexisted file: '.$this->source);
         }
     }
+}
+// https://paulund.co.uk/php-delete-directory-and-files-in-directory
+// Improved: directory itself does not deleted.
+function delete_files($target) {
+    if(is_dir($target)){
+        echo "Clearing: $target \n";
+        $files = glob( $target . '/*', GLOB_MARK ); //GLOB_MARK adds a slash to directories returned
+
+        foreach( $files as $file ){
+            echo "Prepare to delete file: $file \n";
+            if(is_file($file) && !is_dir($file)){
+                echo "Delete file: $file \n";
+                unlink( $file );
+            }      
+        }
+    } 
 }

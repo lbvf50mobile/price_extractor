@@ -32,4 +32,5 @@
 - `20:06` start to imlement `Microdata`. 
     - https://pcfoto.biz/boya-by-dmr7.html
     - https://dijaspora.shop/s-box-plb-2044-nosac-za-zakrivljene-ekrane-3e2cf1a6-e621-3591-87f4-2194fbdc4886 
+- `count(//*[@itemtype='http://schema.org/Product'])`  https://stackoverflow.com/a/54577243/8574922
     

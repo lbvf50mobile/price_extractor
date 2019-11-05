@@ -11,3 +11,12 @@
     - now working with https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/ requires 2 seconds
     - `15:55` now after the cache the time of wokring is 0.1 sec - 20 times faster;
     - `16:20` task is done.
+
+- `17:05` Now I going to create a Class stucture 
+    - `Parser` it is a main class it got **html** string as an argument, and convert's it to the `new DOMXpath($dom);`
+    -  then the `Parser` selects the `ParsingTool`, that going to test this element. And there will be plenty of such testing tools
+        - for JSON-LD first varian whith Offers like array
+        - for JSON-LD second variant with Offers like object
+        - For Microdata
+        - for RDFa.
+        

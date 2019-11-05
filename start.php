@@ -15,10 +15,11 @@ $sources_list = [
 ];
 $html_cache = new PriceExtractor\Cache\HtmlCache($sources_list);
 
-foreach($html_cache as $element){
-    echo $element->html." : html\n";
-    echo $element->type." : type\n";
-    echo $element->source." : source\n";
+foreach($html_cache as $key => $element){
+    echo $key."----------------------\n";
+    echo "TYPE: $element->type \n";
+    echo "SOURCE: $element->source \n";
+    echo "HTML: $element->html \n";
 }
 
 /*

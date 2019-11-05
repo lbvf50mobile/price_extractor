@@ -16,9 +16,9 @@ class HtmlCache implements \IteratorAggregate{
     }
     function fill_results(){
         $this->results = [
-            new CachedElemet("one"),
+            new CachedElemet("httpone"),
             new CachedElemet("two"),
-            new CachedElemet("three"),
+            new CachedElemet("httpthree"),
         ];
     }
     function getIterator(){
@@ -30,6 +30,7 @@ class CachedElemet {
     public  $html;
     public  $source;
     public $type;
+    private $is_url;
 
     function __construct($resource_path){
         $this->cache_dir = dirname(__FILE__)."/cache";
@@ -42,6 +43,10 @@ class CachedElemet {
         $this->html = "this is html";
     }
     protected function setType(){
-        $this->type = "uri";
+        $this->defineUrlOrFile();
+        $this->type = $this->is_url ? "url" : "file";
+    }
+    protected function defineUrlOrFile(){
+        return $this->is_url = (0 == preg_match('/^http/',$this->source)) ? false : true;
     }
 }

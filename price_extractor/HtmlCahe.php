@@ -1,7 +1,7 @@
 <?php
 namespace PriceExtractor\Cache;
 
-class HtmlCahe implements \IteratorAggregate{
+class HtmlCache implements \IteratorAggregate{
     function __construct($sources_list){
         $this->sources_list = $sources_list;
         $this->results = array();

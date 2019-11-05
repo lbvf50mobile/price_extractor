@@ -13,7 +13,7 @@ include('price_extractor/HtmlCahe.php');
 $sources_list = [
     "https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/",
 ];
-$html_cache = new PriceExtractor\Cache\HtmlCahe($sources_list);
+$html_cache = new PriceExtractor\Cache\HtmlCache($sources_list);
 
 foreach($html_cache as $element){
     echo $element->html." : html\n";

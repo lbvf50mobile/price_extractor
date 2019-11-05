@@ -6,7 +6,7 @@ function just_load($name){
     require_once($dir);
 }
 
-$class_set = ["ParseToolDump"];
+$class_set = ["ParseToolDump","JsonLd"];
 foreach($class_set as $class){
     just_load($class);
 }

@@ -12,7 +12,7 @@ class ParseToolDump{
     }
     function test(){
         $this->extractNameAndPrice();
-        return true;
+        return false;
     }
     function extractNameAndPrice(){
         $this->name = "ParseToolDump";

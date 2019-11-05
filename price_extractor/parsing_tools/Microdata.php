@@ -14,8 +14,10 @@ class Microdata{
 
     }
     function test(){
-        $this->extractNameAndPrice();
-        $this->check_for_product();
+        if($this->check_for_product()){
+            $this->extractNameAndPrice();
+            return true;
+        };
         return false;
     }
     function extractNameAndPrice(){
@@ -23,13 +25,14 @@ class Microdata{
         $this->price = 10000;
     }
     protected function check_for_product(){
-        
         if($this->get_products() > 0){
             foreach($this->products as $product){
-                echo "counting products \n";
+                if($this->valid_product($product)){
+                    return true;
+                }
             }
         }
-       
+        return false;
         
     }
     protected function get_products(){
@@ -37,4 +40,8 @@ class Microdata{
         $this->products = $this->xpath->query($select_query);
         return count($this->products);
     }
+    protected function valid_product($node){
+        return true;
+    }
+   
 }

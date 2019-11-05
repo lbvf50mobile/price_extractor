@@ -15,9 +15,21 @@ class HtmlCahe implements \IteratorAggregate{
         }
     }
     function fill_results(){
-        $this->results = ['one','two','three'];
+        $this->results = [
+            new CachedElemet("one"),
+            new CachedElemet("two"),
+            new CachedElemet("three"),
+        ];
     }
     function getIterator(){
         return new \ArrayIterator($this->results);
+    }
+}
+
+class CachedElemet {
+    function __construct($resource_path){
+        $this->html = "this is html";
+        $this->source = $resource_path;
+        $this->type = "uri";
     }
 }

@@ -16,7 +16,9 @@ $sources_list = [
 $html_cache = new PriceExtractor\Cache\HtmlCahe($sources_list);
 
 foreach($html_cache as $element){
-    echo $element."\n";
+    echo $element->html." : html\n";
+    echo $element->type." : type\n";
+    echo $element->source." : source\n";
 }
 
 /*

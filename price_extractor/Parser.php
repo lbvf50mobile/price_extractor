@@ -17,8 +17,14 @@ class Parser{
     }
 
     protected  function setNameAndPrice(){
-        $this->price = 5;
-        $this->name = 5;
+        $parsing_object = $this->selectAppropriateParseObject();
+        if($parsing_object){
+            $this->price = $parsing_object->price;
+            $this->name = $parsing_object->name;
+        }else{
+            $this->price = null;
+            $this->name = null;
+        }
     }
 
     protected function generateDomAndXpath(){
@@ -31,5 +37,15 @@ class Parser{
         $this->parse_tools_list = [];
         require_once($this->dir."/ParseTools.php");
         array_push($this->parse_tools_list,new \ParseTools\ParseToolDump($this->dom,$this->xpath));
+    }
+
+    protected function selectAppropriateParseObject(){
+        $appropriate_object = false;
+        foreach($this->parse_tools_list as $test_object){
+            if($test_object->test()){
+                return $test_object;
+            }
+        }
+        return $appropriate_object;
     }
 }

@@ -12,6 +12,7 @@ class ParseToolDump{
 
     }
     function test(){
+        $this->extractNameAndPrice();
         return true;
     }
     function extractNameAndPrice(){

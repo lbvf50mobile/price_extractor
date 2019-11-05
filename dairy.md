@@ -20,3 +20,4 @@
         - For Microdata
         - for RDFa.
 - `17:19` Implementing
+    -`18:06` create class that uses ohter classes for parsing, an interface is created.

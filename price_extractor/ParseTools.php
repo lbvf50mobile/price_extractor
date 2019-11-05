@@ -1,22 +1,12 @@
 <?php
 namespace ParseTools;
 
-class ParseToolDump{
-    public $dom;
-    public $xpath;
-    public $name;
-    public $price;
-    function __construct($dom,$xpath){
-        $this->dom = $dom;
-        $this->xpath = $xpath;
+function just_load($name){
+    $dir = dirname(__FILE__)."/parsing_tools/$name.php";
+    require_once($dir);
+}
 
-    }
-    function test(){
-        $this->extractNameAndPrice();
-        return true;
-    }
-    function extractNameAndPrice(){
-        $this->name = "ParseToolDump";
-        $this->price = 10000;
-    }
+$class_set = ["ParseToolDump"];
+foreach($class_set as $class){
+    just_load($class);
 }

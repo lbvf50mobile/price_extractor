@@ -43,12 +43,27 @@ foreach($html_cache as $key => $element){
 
 ```
 
-## Algorithm
+## System implementation.
 
-1. Get the html content of the page and deliver into the script variable.
-2. [Extract](https://www.coralnodes.com/parsing-html-in-php/) all `<script type="application/ld+json">` elements from this html. Using [xpath](https://www.w3schools.com/xml/xml_xpath.asp) = `//script[@type='application/ld+json']`
-3. Iterate over all `<script type="application/ld+json">`  that been found, and select ones that has `"@context" = 'https://schema.org/'`
-4. If this **ld+json** has a `"@type" == 'Product'` and have a `name` start to collect prices for this **name** from **offers**
+1. There is a `PriceExtractor\Parser` class. It constructors requries **html** string, and after parce it set **name** and **parse** properties.
+2. Object of `Parser` class comprice set of `ParseTools` object, each of them has a `test` method. This method evaluates "Do it possbile to parse incoming html?" At current moment 2 class existed
+    -  ParseToolDump - class for developers needs.
+    - JsonLd - class for parsing JsonLd implementation of schema.
+
+```php
+
+foreach($html_cache as $key => $element){
+    echo $key."----------------------\n";
+    echo "SOURCE: $element->source \n";
+    echo "CACHE_FILE_NAME: " . $element->getCacheName() ." \n";
+
+    $parser = new PriceExtractor\Parser($element->html);
+
+    echo "NAME: $parser->name \n";
+    echo "PRICE: $parser->price \n";
+
+}
+```
 
 ## TODO and Dairy
 

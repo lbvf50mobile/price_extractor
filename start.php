@@ -12,7 +12,6 @@ include('price_extractor/Parser.php'); // Parser is responsible for ProductName/
 
 foreach($html_cache as $key => $element){
     echo $key."----------------------\n";
-    echo "TYPE: $element->type \n";
     echo "SOURCE: $element->source \n";
     echo "CACHE_FILE_NAME: " . $element->getCacheName() ." \n";
 

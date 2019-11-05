@@ -19,4 +19,4 @@
         - for JSON-LD second variant with Offers like object
         - For Microdata
         - for RDFa.
-        
+- `17:19` Implementing

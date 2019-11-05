@@ -1,18 +1,27 @@
 <?php
 
-include('PriceExtractor.php');
 include('price_extractor/HtmlCahe.php');
+
+
 $sources_list = [
     "https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/",
 ];
 $html_cache = new PriceExtractor\Cache\HtmlCache($sources_list);
 
-
+include('price_extractor/Parser.php'); // Parser is responsible for ProductName/OfferPrice extraction from html;
 
 foreach($html_cache as $key => $element){
     echo $key."----------------------\n";
     echo "TYPE: $element->type \n";
     echo "SOURCE: $element->source \n";
     echo "CACHE_FILE_NAME: " . $element->getCacheName() ." \n";
+
+    $parser = new PriceExtractor\Parser($element->html);
+
+    echo "Name: $parser->name; Price $parser->price";
+
 }
 
+
+// !important! It is possble to clear the cache folder.
+// $html_cache->clearCacheDirecotry();

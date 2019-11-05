@@ -27,9 +27,21 @@ class HtmlCache implements \IteratorAggregate{
 }
 
 class CachedElemet {
+    public  $html;
+    public  $source;
+    public $type;
+
     function __construct($resource_path){
-        $this->html = "this is html";
+        $this->cache_dir = dirname(__FILE__)."/cache";
         $this->source = $resource_path;
+        $this->setType();
+        $this->setHtml();
+       
+    }
+    protected function setHtml(){
+        $this->html = "this is html";
+    }
+    protected function setType(){
         $this->type = "uri";
     }
 }

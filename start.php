@@ -18,7 +18,8 @@ foreach($html_cache as $key => $element){
 
     $parser = new PriceExtractor\Parser($element->html);
 
-    echo "Name: $parser->name; Price $parser->price";
+    echo "NAME: $parser->name \n";
+    echo "PRICE: $parser->price \n";
 
 }
 

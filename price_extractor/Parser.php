@@ -1,7 +1,5 @@
 <?php
 namespace PriceExtractor;
-echo "Good day\n";
-
 class Parser{
     public $price;
     public $name;
@@ -10,16 +8,15 @@ class Parser{
     protected $xpath;
 
     function __construct($html){
-        echo "I'm in the parser constuctor \n";
         $this->html = $html;
+        $this->dir = dirname(__FILE__); 
         $this->generateDomAndXpath();
         $this->setNameAndPrice();
     }
 
     protected  function setNameAndPrice(){
-        echo "I set a price and name \n";
-        $this->price = 1;
-        $this->name = "Test name";
+        $this->price = 5;
+        $this->name = 5;
     }
 
     protected function generateDomAndXpath(){

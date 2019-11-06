@@ -41,12 +41,14 @@ class JsonLd{
             $schema = json_decode($node->nodeValue, true);
             $have_attributes = $this->check_has_all_attributes($schema);
             if($have_attributes){
+                file_put_contents("example.xml", $this->string_jsonld_2_xml_at_substitute($node->nodeValue));
                 $this->schema = $schema;
                 return true;
             }
         }
         return false;
     }
+   
 
     protected function check_has_all_attributes($schema){
         $product =  $this->check_product_attributes($schema);
@@ -88,6 +90,29 @@ class JsonLd{
 
     protected function check_value_exists_in_array($arr,$key,$value){
         return array_key_exists($key,$arr) &&  $value == $arr[$key]; 
+    }
+
+     // Need to replace @ with AT because of @ is an atribute search in xPath
+     private function string_jsonld_2_xml_at_substitute($str){
+        $str = str_replace('@','AT',$str);
+        return $this->array2xml(json_decode($str,true));
+    }
+    // https://stackoverflow.com/a/26964222/8574922
+    private function array2xml($array, $xml = false){
+
+        if($xml === false){
+            $xml = new \SimpleXMLElement('<result/>');
+        }
+    
+        foreach($array as $key => $value){
+            if(is_array($value)){
+                $this->array2xml($value, $xml->addChild($key));
+            } else {
+                $xml->addChild($key, $value);
+            }
+        }
+    
+        return $xml->asXML();
     }
 }
 

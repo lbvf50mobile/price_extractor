@@ -36,4 +36,8 @@
 
 - `21:20` continue with xPath.
 - `22:02` Done with microdata 2 hrs
+
+### 2019.11.06 Wednesday November
+
+- `17:43` Separate the extracting node value into the separtate method to keep the code dry.
     

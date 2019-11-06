@@ -45,12 +45,8 @@ class Microdata{
         $select_query = "//*[@itemprop='name']";
         $answer = $this->xpath->query($select_query,$node);
         if(count($answer) > 0){
-            $this->name =  $answer[0]->nodeValue;
-            if(empty($this->name)){
-                $this->name = $answer[0]->attributes->getNamedItem('content')->nodeValue;
-            }
+            $this->name = $this->extract_value_or_content_attribute($answer[0]); 
             return true;
-
         }
         return false;
     }
@@ -58,14 +54,14 @@ class Microdata{
         $select_query = "//*[@itemprop='price']";
         $answer = $this->xpath->query($select_query,$node);
         if(count($answer) > 0){
-            $this->price =  $answer[0]->nodeValue;
-            if(empty($this->price)){
-                $this->price = $answer[0]->attributes->getNamedItem('content')->nodeValue;
-            }
+            $this->price =  $this->extract_value_or_content_attribute($answer[0]);
             return true;
-
         }
         return false;
+    }
+    protected function extract_value_or_content_attribute($domnode){
+        $value = $domnode->nodeValue;
+        return empty($value) ? $domnode ->attributes->getNamedItem('content')->nodeValue : $value ;
     }
    
 }

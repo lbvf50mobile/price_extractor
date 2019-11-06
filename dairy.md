@@ -39,5 +39,7 @@
 
 ### 2019.11.06 Wednesday November
 
-- `17:43` Separate the extracting node value into the separtate method to keep the code dry.
+- `17:43` finished in `18:05` **20minutes** Separate the extracting node value into the separtate method to keep the code dry. 
+- `18:06` Read about xPath. `18:50` pause => **44minutes**
+- `19:30` continue working with XPath. `20:23` pause => **53minutes**
     

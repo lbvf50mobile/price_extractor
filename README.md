@@ -72,6 +72,19 @@ foreach($html_cache as $key => $element){
 }
 ```
 
+### First implementation of JsonLd parser:
+
+1. Find  all `//script[@type='application/ld+json']` elements in the HTML of the page and loop over them selecting appropriate.
+2. Check an `script` has
+    - `@context` == `'https://schema.org/'`
+    - `@type` ==  `'Product'`
+    - `name` 
+    - `offers`
+3. Check that offers is array or object, and check that it has `price`
+4. if **step 2** ans **step 3** are valid, get `name` and `price`
+
+all steps implemented by functions.
+
 ## TODO and Dairy
 
 [Set of task and implementation of them](dairy.md) - here is a journal of the project.

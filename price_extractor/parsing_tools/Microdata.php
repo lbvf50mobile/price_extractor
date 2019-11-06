@@ -28,7 +28,6 @@ class Microdata{
             }
         }
         return false;
-        
     }
     protected function get_products(){
         $select_query = "//*[@itemtype='http://schema.org/Product']";
@@ -36,32 +35,26 @@ class Microdata{
         return count($this->products);
     }
     protected function valid_product($node){
-        if($this->has_name($node) && $this->has_price($node)){
-            return true;
-        }
-        return false;
+        return $this->has_name($node) && $this->has_price($node);
     }
     protected function has_name($node){
-        $select_query = "//*[@itemprop='name']";
-        $answer = $this->xpath->query($select_query,$node);
-        if(count($answer) > 0){
-            $this->name = $this->extract_value_or_content_attribute($answer[0]); 
-            return true;
-        }
-        return false;
+        return $this->extract_and_set_property($node,"//*[@itemprop='name']",$this->name);
     }
     protected function has_price($node){
-        $select_query = "//*[@itemprop='price']";
+        return $this->extract_and_set_property($node,"//*[@itemprop='price']",$this->price);
+    }
+
+    protected function extract_and_set_property($node, $select_query, &$property){
         $answer = $this->xpath->query($select_query,$node);
         if(count($answer) > 0){
-            $this->price =  $this->extract_value_or_content_attribute($answer[0]);
+            $property =  $this->extract_value_or_content_attribute($answer[0]);
             return true;
         }
         return false;
     }
     protected function extract_value_or_content_attribute($domnode){
         $value = $domnode->nodeValue;
-        return empty($value) ? $domnode ->attributes->getNamedItem('content')->nodeValue : $value ;
+        return empty($value) ? $domnode ->attributes->getNamedItem('content')->nodeValue : $value;
     }
    
 }

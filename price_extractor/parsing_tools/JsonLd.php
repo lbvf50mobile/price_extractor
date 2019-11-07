@@ -6,9 +6,6 @@ class JsonLd{
     public $name;
     public $price;
 
-    protected $name_and_price_are_found;
-
-
     function __construct($dom,$xpath){
         $this->dom = $dom;
         $this->xpath = $xpath;
@@ -16,11 +13,10 @@ class JsonLd{
 
     function test(){
         $this->scripts = $this->xpath->query("//script[@type='application/ld+json']");
-        return $this->loop_over_xpaths();
-          
+        return $this->loop_over_script_with_jsonld();
     }
   
-    protected function loop_over_xpaths(){
+    protected function loop_over_script_with_jsonld(){
         foreach($this->scripts as $node){
             $schema = json_decode($node->nodeValue, true);
             $name_and_price = $this->schema_contains_product_name_and_offer_price($schema);
@@ -34,26 +30,20 @@ class JsonLd{
     }
 
     protected function schema_contains_product_name_and_offer_price($schema){
-        $this->name_and_price_are_found = false;
         if(! $this->valid_schema($schema)){
             return false;
         }
-
-        return $this->dfs_product($schema);
+        return $this->dfs_for_product_name($schema);
     }
 
-    protected function dfs_product($node){
-        if($this->name_and_price_are_found){
-            return false;
-        }
+    protected function dfs_for_product_name($node){
         $name = $this->node_is_valid_product_with_name($node);
         if($name){
-            $this->name_and_price_are_found = true;
             return array('name'=> $name, 'price' => "tmpPrice");
         }else{
             foreach($node as $element){
                 if(is_array($element)){
-                    $answer = $this->dfs_product($element);
+                    $answer = $this->dfs_for_product_name($element);
                     if($answer){
                         return $answer;
                     }
@@ -62,7 +52,6 @@ class JsonLd{
         }
         return false;
     }
-
 
     protected function valid_schema($schema){
         return $this->key_has_value($schema,"@context", 'https://schema.org/');

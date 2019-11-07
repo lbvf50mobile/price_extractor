@@ -70,3 +70,5 @@
     - [What is JSON LD](https://youtu.be/vioCbTo3C-4)
     - https://json-ld.org/playground/ I able to use N-Quads
 - `17:17` I need to extract all JSON LD from the two pages.
+    - `18:17` pause
+    - `18:36` continue

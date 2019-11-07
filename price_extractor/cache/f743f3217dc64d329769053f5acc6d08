@@ -408,10 +408,10 @@ ul.sub-menu li > a {
 	<form class="cart" action="https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/" method="post" enctype='multipart/form-data'>
 		
 			<div class="quantity">
-				<label class="screen-reader-text" for="quantity_5dc13df6829ac">Sennheiser HD 4.40 BT Wireless količina</label>
+				<label class="screen-reader-text" for="quantity_5dc43c4bb060f">Sennheiser HD 4.40 BT Wireless količina</label>
 		<input
 			type="number"
-			id="quantity_5dc13df6829ac"
+			id="quantity_5dc43c4bb060f"
 			class="input-text qty text"
 			step="1"
 			min="1"
@@ -512,26 +512,6 @@ ul.sub-menu li > a {
 		<ul class="products columns-3">
 
 			
-				<li class="product type-product post-10402 status-publish first instock product_cat-bluetooth product_cat-hi-fi product_cat-slusalice product_tag-sennheiser has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-50-btnc-wireless/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap">
-	<span class="onsale">Akcija!</span>
-<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-4.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />
-	<span class="price"><del><span class="woocommerce-Price-amount amount">27.000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">21.490&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins></span>
-<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser HD 4.50 BTNC Wireless</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/bluetooth/" rel="tag">Bluetooth</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=10402" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="10402" data-product_sku="" aria-label="Dodajte &ldquo;Sennheiser HD 4.50 BTNC Wireless&rdquo; u korpu" rel="nofollow">Add</a></li>
-
-			
-				<li class="product type-product post-14875 status-publish instock product_cat-bluetooth product_cat-hi-fi product_cat-multimedija-sa-mikrofonom product_cat-noise-cancelling product_cat-slusalice product_tag-sennheiser has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-momentum-3-wireless/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap"><img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2019/10/front-4-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2019/10/front-4-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2019/10/front-4.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2019/10/front-4-32x32.jpg 32w, https://shop.4audio.rs/wp-content/uploads/2019/10/front-4-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" />
-	<span class="price"><span class="woocommerce-Price-amount amount">47.900&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></span>
-<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser Momentum 3 Wireless</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/bluetooth/" rel="tag">Bluetooth</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/multimedija-sa-mikrofonom/" rel="tag">Multimedija (sa mikrofonom)</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/noise-cancelling/" rel="tag">Noise Cancelling</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=14875" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="14875" data-product_sku="" aria-label="Dodajte &ldquo;Sennheiser Momentum 3 Wireless&rdquo; u korpu" rel="nofollow">Add</a></li>
-
-			
-				<li class="product type-product post-14825 status-publish last instock product_cat-bluetooth product_cat-hi-fi product_cat-multimedija-sa-mikrofonom product_cat-noise-cancelling product_cat-slusalice product_tag-bose has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<a href="https://shop.4audio.rs/shop/slusalice/bose-noise-cancelling-headphones-700/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap"><img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2019/09/front-1-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2019/09/front-1-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2019/09/front-1.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2019/09/front-1-32x32.jpg 32w, https://shop.4audio.rs/wp-content/uploads/2019/09/front-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" />
-	<span class="price"><span class="woocommerce-Price-amount amount">50.400&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></span>
-<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Bose Noise Cancelling Headphones 700</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/bluetooth/" rel="tag">Bluetooth</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/multimedija-sa-mikrofonom/" rel="tag">Multimedija (sa mikrofonom)</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/noise-cancelling/" rel="tag">Noise Cancelling</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=14825" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="14825" data-product_sku="" aria-label="Dodajte &ldquo;Bose Noise Cancelling Headphones 700&rdquo; u korpu" rel="nofollow">Add</a></li>
-
-			
 				<li class="product type-product post-8450 status-publish first instock product_cat-hi-fi product_cat-high-end product_cat-multimedija-sa-mikrofonom product_cat-slusalice product_tag-sennheiser has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-hd-630vb/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap">
 	<span class="onsale">Akcija!</span>
@@ -540,12 +520,34 @@ ul.sub-menu li > a {
 <span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser HD 630VB</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/high-end/" rel="tag">High-End</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/multimedija-sa-mikrofonom/" rel="tag">Multimedija (sa mikrofonom)</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=8450" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="8450" data-product_sku="" aria-label="Dodajte &ldquo;Sennheiser HD 630VB&rdquo; u korpu" rel="nofollow">Add</a></li>
 
 			
-				<li class="product type-product post-1124 status-publish instock product_cat-hi-fi product_cat-slusalice product_tag-yamaha has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-	<a href="https://shop.4audio.rs/shop/slusalice/yamaha-hph-pro500/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap">
+				<li class="product type-product post-10402 status-publish instock product_cat-bluetooth product_cat-hi-fi product_cat-slusalice product_tag-sennheiser has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-50-btnc-wireless/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap">
 	<span class="onsale">Akcija!</span>
-<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2013/11/HPH-PRO500-011-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2013/11/HPH-PRO500-011-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2013/11/HPH-PRO500-011-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2013/11/HPH-PRO500-011.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2013/11/HPH-PRO500-011-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />
-	<span class="price"><del><span class="woocommerce-Price-amount amount">43.200&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">35.990&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins></span>
-<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Yamaha HPH-PRO500</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=1124" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1124" data-product_sku="" aria-label="Dodajte &ldquo;Yamaha HPH-PRO500&rdquo; u korpu" rel="nofollow">Add</a></li>
+<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-4.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-4-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />
+	<span class="price"><del><span class="woocommerce-Price-amount amount">27.000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">21.490&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins></span>
+<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser HD 4.50 BTNC Wireless</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/bluetooth/" rel="tag">Bluetooth</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=10402" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="10402" data-product_sku="" aria-label="Dodajte &ldquo;Sennheiser HD 4.50 BTNC Wireless&rdquo; u korpu" rel="nofollow">Add</a></li>
+
+			
+				<li class="product type-product post-10361 status-publish last instock product_cat-multimedija-sa-mikrofonom product_cat-pc product_cat-slusalice product_tag-sennheiser has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-gsp-300/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap">
+	<span class="onsale">Akcija!</span>
+<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2016/12/front-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2016/12/front-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2016/12/front-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2016/12/front.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2016/12/front-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />
+	<span class="price"><del><span class="woocommerce-Price-amount amount">13.800&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">11.990&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins></span>
+<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser GSP 300</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/multimedija-sa-mikrofonom/" rel="tag">Multimedija (sa mikrofonom)</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/pc/" rel="tag">PC</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=10361" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="10361" data-product_sku="" aria-label="Dodajte &ldquo;Sennheiser GSP 300&rdquo; u korpu" rel="nofollow">Add</a></li>
+
+			
+				<li class="product type-product post-10146 status-publish first instock product_cat-hi-fi product_cat-multimedija-sa-mikrofonom product_cat-slusalice product_tag-sennheiser has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-30gi/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap">
+	<span class="onsale">Akcija!</span>
+<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2016/11/front-3-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2016/11/front-3-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2016/11/front-3-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2016/11/front-3.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2016/11/front-3-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />
+	<span class="price"><del><span class="woocommerce-Price-amount amount">9.450&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">6.990&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins></span>
+<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser HD 4.30G/i</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/multimedija-sa-mikrofonom/" rel="tag">Multimedija (sa mikrofonom)</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><a href="/shop/slusalice/sennheiser-hd-4-40-bt-wireless/?add-to-cart=10146" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="10146" data-product_sku="" aria-label="Dodajte &ldquo;Sennheiser HD 4.30G/i&rdquo; u korpu" rel="nofollow">Add</a></li>
+
+			
+				<li class="product type-product post-10211 status-publish instock product_cat-bluetooth product_cat-hi-fi product_cat-noise-cancelling product_cat-slusalice product_tag-sennheiser has-post-thumbnail shipping-taxable product-type-external">
+	<a href="https://shop.4audio.rs/shop/slusalice/sennheiser-pxc-550-wireless/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="img-wrap"><img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2016/11/front-11-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2016/11/front-11-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2016/11/front-11-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2016/11/front-11.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2016/11/front-11-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />
+	<span class="price"><span class="woocommerce-Price-amount amount">41.900&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></span>
+<span class="details-link"></span></div> <!--/.wrap--><h2 class="woocommerce-loop-product__title">Sennheiser PXC 550 Wireless</h2><div class="categories"><a href="https://shop.4audio.rs/kategorija-proizvoda/bluetooth/" rel="tag">Bluetooth</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/hi-fi/" rel="tag">Hi-Fi</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/noise-cancelling/" rel="tag">Noise Cancelling</a>, <a href="https://shop.4audio.rs/kategorija-proizvoda/slusalice/" rel="tag">Slušalice</a></div></a><div class="rating-wrap"><a href="https://shop.4audio.rs/shop/slusalice/sennheiser-pxc-550-wireless/#reviews"><div class="star-rating" role="img" aria-label="Ocenjeno 4.00 od 5"><span style="width:80%">Ocenjeno <strong class="rating">4.00</strong> od 5</span></div><span class="review-count"><span class="count">2</span> reviews</span></a></div><a href="https://shop.4audio.rs/kontakt/" data-quantity="1" class="button product_type_external" data-product_id="10211" data-product_sku="" aria-label="Narudžbina na zahtev" rel="nofollow">Narudžbina na zahtev</a></li>
 
 			
 		</ul>
@@ -562,12 +564,12 @@ ul.sub-menu li > a {
 
 	
 	    <div class="primary">
-		<div id="woocommerce_product_search_widget-2" class="widget widget_woocommerce_product_search_widget"><h3>Pretraga proizvoda</h3><div id="product-search-731841064" class="product-search "><div class="product-search-form"><form id="product-search-form-731841064" class="product-search-form" action="https://shop.4audio.rs/" method="get"><div><input id="product-search-field-731841064" name="s" type="text" class="product-search-field" placeholder="Search" autocomplete="off"/><input type="hidden" name="post_type" value="product"/><input type="hidden" name="tags" value="1"/><input type="hidden" name="limit" value="10"/><input type="hidden" name="ixwps" value="1"/><noscript><button type="submit">Search</button></noscript></div></form></div><div id="product-search-results-731841064" class="product-search-results"></div></div><script type="text/javascript">if ( typeof jQuery !== "undefined" ) {jQuery(document).ready(function(){jQuery("#product-search-field-731841064").typeWatch( {
-				callback: function (value) { ixwps.productSearch('product-search-field-731841064', 'product-search-731841064', 'product-search-731841064 div.product-search-results', 'https://shop.4audio.rs/wp-admin/admin-ajax.php?order=DESC&order_by=date&title=1&excerpt=1&content=1&tags=1&limit=10&category_results=1&category_limit=5&product_thumbnails=1', value, {no_results:"",dynamic_focus:true,product_thumbnails:true,show_description:false,show_price:false}); },
+		<div id="woocommerce_product_search_widget-2" class="widget widget_woocommerce_product_search_widget"><h3>Pretraga proizvoda</h3><div id="product-search-1343252240" class="product-search "><div class="product-search-form"><form id="product-search-form-1343252240" class="product-search-form" action="https://shop.4audio.rs/" method="get"><div><input id="product-search-field-1343252240" name="s" type="text" class="product-search-field" placeholder="Search" autocomplete="off"/><input type="hidden" name="post_type" value="product"/><input type="hidden" name="tags" value="1"/><input type="hidden" name="limit" value="10"/><input type="hidden" name="ixwps" value="1"/><noscript><button type="submit">Search</button></noscript></div></form></div><div id="product-search-results-1343252240" class="product-search-results"></div></div><script type="text/javascript">if ( typeof jQuery !== "undefined" ) {jQuery(document).ready(function(){jQuery("#product-search-field-1343252240").typeWatch( {
+				callback: function (value) { ixwps.productSearch('product-search-field-1343252240', 'product-search-1343252240', 'product-search-1343252240 div.product-search-results', 'https://shop.4audio.rs/wp-admin/admin-ajax.php?order=DESC&order_by=date&title=1&excerpt=1&content=1&tags=1&limit=10&category_results=1&category_limit=5&product_thumbnails=1', value, {no_results:"",dynamic_focus:true,product_thumbnails:true,show_description:false,show_price:false}); },
 				wait: 500,
 				highlight: true,
 				captureLength: 1
-			} );ixwps.navigate("product-search-field-731841064","product-search-results-731841064");ixwps.dynamicFocus("product-search-731841064","product-search-results-731841064");ixwps.autoAdjust("product-search-field-731841064","product-search-results-731841064");});}</script></div><div id="woocommerce_widget_cart-2" class="widget woocommerce widget_shopping_cart"><h3>Korpa</h3><div class="widget_shopping_cart_content"></div></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3>Skorašnji članci</h3>		<ul>
+			} );ixwps.navigate("product-search-field-1343252240","product-search-results-1343252240");ixwps.dynamicFocus("product-search-1343252240","product-search-results-1343252240");ixwps.autoAdjust("product-search-field-1343252240","product-search-results-1343252240");});}</script></div><div id="woocommerce_widget_cart-2" class="widget woocommerce widget_shopping_cart"><h3>Korpa</h3><div class="widget_shopping_cart_content"></div></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3>Skorašnji članci</h3>		<ul>
 											<li>
 					<a href="https://shop.4audio.rs/pristupacni-psb-sabvuferi/">Pristupačni PSB sabvuferi</a>
 									</li>
@@ -706,7 +708,7 @@ jQuery(document).ready(function() {
 			jQuery(this).find('.newsletters_fielderror').removeClass('newsletters_fielderror');
 		
 			jQuery.ajax({
-				url: newsletters_ajaxurl + 'action=wpmlsubscribe&widget=Newsletters_Widget&widget_id=newsletters-2&number=2&security=8e90bc142e',
+				url: newsletters_ajaxurl + 'action=wpmlsubscribe&widget=Newsletters_Widget&widget_id=newsletters-2&number=2&security=6150e7ab9a',
 				data: jQuery('#newsletters-2-form').serialize(),
 				type: "POST",
 				cache: false,
@@ -739,6 +741,33 @@ jQuery(document).ready(function() {
 			<div class="block footer-widget-3">
 	        	<div id="woocommerce_top_rated_products-2" class="widget woocommerce widget_top_rated_products"><h3>Najbolje ocenjeni proizvodi</h3><ul class="product_list_widget"><li>
 	
+	<a href="https://shop.4audio.rs/shop/izlazna-pojacala/audiolab-m-pwr/">
+		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2013/10/M-PWR-011-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2013/10/M-PWR-011-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2013/10/M-PWR-011-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2013/10/M-PWR-011.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2013/10/M-PWR-011-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">Audiolab M-PWR</span>
+	</a>
+
+			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
+	<del><span class="woocommerce-Price-amount amount">54.000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">38.990&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins>
+	</li>
+<li>
+	
+	<a href="https://shop.4audio.rs/shop/integrisana-pojacala/roksan-blak-integrated-amplifier-usb/">
+		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2017/09/front-2-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2017/09/front-2-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2017/09/front-2-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2017/09/front-2.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2017/09/front-2-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">Roksan Blak Integrated USB</span>
+	</a>
+
+			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
+	<span class="woocommerce-Price-amount amount">354.000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span>
+	</li>
+<li>
+	
+	<a href="https://shop.4audio.rs/shop/cd-plejeri/yamaha-cd-s3000/">
+		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2014/08/CD-S3000-011-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2014/08/CD-S3000-011-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2014/08/CD-S3000-011-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2014/08/CD-S3000-011.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2014/08/CD-S3000-011-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">Yamaha CD-S3000</span>
+	</a>
+
+			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
+	<span class="woocommerce-Price-amount amount">504.000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span>
+	</li>
+<li>
+	
 	<a href="https://shop.4audio.rs/shop/integrisana-pojacala/musical-fidelity-m6si/">
 		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2014/11/musical-fidelity-m6si-01-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2014/11/musical-fidelity-m6si-01-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2014/11/musical-fidelity-m6si-01-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2014/11/musical-fidelity-m6si-01-300x300.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2014/11/musical-fidelity-m6si-01-32x32.jpg 32w, https://shop.4audio.rs/wp-content/uploads/2014/11/musical-fidelity-m6si-01.jpg 700w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">Musical Fidelity M6si</span>
 	</a>
@@ -754,33 +783,6 @@ jQuery(document).ready(function() {
 
 			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
 	<del><span class="woocommerce-Price-amount amount">47.400&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">35.990&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins>
-	</li>
-<li>
-	
-	<a href="https://shop.4audio.rs/shop/integrisana-pojacala/nad-c-388/">
-		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2016/12/C388F-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2016/12/C388F-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2016/12/C388F-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2016/12/C388F.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2016/12/C388F-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">NAD C 388</span>
-	</a>
-
-			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
-	<span class="woocommerce-Price-amount amount">178.800&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span>
-	</li>
-<li>
-	
-	<a href="https://shop.4audio.rs/shop/zvucnici/yamaha-ns-bp150/">
-		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2017/01/front-9-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2017/01/front-9-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-9-100x100.jpg 100w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-9.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2017/01/front-9-32x32.jpg 32w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">Yamaha NS-BP150 (par)</span>
-	</a>
-
-			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
-	<del><span class="woocommerce-Price-amount amount">12.000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></del> <ins><span class="woocommerce-Price-amount amount">9.490&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span></ins>
-	</li>
-<li>
-	
-	<a href="https://shop.4audio.rs/shop/da-konverteri/fiio-m9/">
-		<img width="150" height="150" src="https://shop.4audio.rs/wp-content/uploads/2018/12/front-150x150.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://shop.4audio.rs/wp-content/uploads/2018/12/front-150x150.jpg 150w, https://shop.4audio.rs/wp-content/uploads/2018/12/front.jpg 300w, https://shop.4audio.rs/wp-content/uploads/2018/12/front-32x32.jpg 32w, https://shop.4audio.rs/wp-content/uploads/2018/12/front-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" />		<span class="product-title">FiiO M9</span>
-	</a>
-
-			<div class="star-rating" role="img" aria-label="Ocenjeno 5.00 od 5"><span style="width:100%">Ocenjeno <strong class="rating">5.00</strong> od 5</span></div>	
-	<span class="woocommerce-Price-amount amount">35.400&nbsp;<span class="woocommerce-Price-currencySymbol">&#x434;&#x438;&#x43d;.</span></span>
 	</li>
 </ul></div>			</div>
 
@@ -964,7 +966,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='https://shop.4audio.rs/wp-content/plugins/wp-mailinglist/js/wp-mailinglist.js?ver=5.2.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var newsletters = {"ajax_error":"An Ajax error occurred, please submit again.","ajaxnonce":{"subscribe":"8e90bc142e"}};
+var newsletters = {"ajax_error":"An Ajax error occurred, please submit again.","ajaxnonce":{"subscribe":"6150e7ab9a"}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://shop.4audio.rs/wp-content/plugins/wp-mailinglist/views/default/js/functions.js?ver=5.2.4'></script>

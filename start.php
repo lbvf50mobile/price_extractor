@@ -2,6 +2,7 @@
 
 include('price_extractor/HtmlCahe.php');
 
+$use_cache = false; // Use caching files or uppload all pages each time.
 
 $sources_list = [
     "https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/",
@@ -9,7 +10,8 @@ $sources_list = [
     "https://dijaspora.shop/s-box-plb-2044-nosac-za-zakrivljene-ekrane-3e2cf1a6-e621-3591-87f4-2194fbdc4886",
     "https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/"
 ];
-$html_cache = new PriceExtractor\Cache\HtmlCache($sources_list);
+
+$html_cache = new PriceExtractor\Cache\HtmlCache($sources_list, $use_cache);
 
 include('price_extractor/Parser.php'); // Parser is responsible for ProductName/OfferPrice extraction from html;
 

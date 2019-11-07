@@ -2,12 +2,15 @@
 namespace PriceExtractor\Cache;
 
 class HtmlCache implements \IteratorAggregate{
-    function __construct($sources_list){
+    var $use_cache;
+    function __construct($sources_list, $use_cache = false){
         $this->sources_list = $sources_list;
+        $this->use_cache = $use_cache;
         $this->results = array();
         $this->cache_dir = dirname(__FILE__)."/cache"; 
         $this->check_cache_dir_exists();
         $this->fill_results();
+        
     }
     public function clearCacheDirecotry(){
         delete_files($this->cache_dir);
@@ -19,7 +22,7 @@ class HtmlCache implements \IteratorAggregate{
     }
     function fill_results(){
         foreach($this->sources_list as $source){
-            array_push($this->results, new CachedElemet($source));
+            array_push($this->results, new CachedElemet($source,$this->use_cache));
         }
     }
     function getIterator(){
@@ -35,11 +38,13 @@ class CachedElemet {
 
     private $is_url;
     private $cache_dir;
+    protected $use_cache;
     
 
-    function __construct($resource_path){
+    function __construct($resource_path, $use_cache = false){
         $this->cache_dir = dirname(__FILE__)."/cache";
         $this->source = $resource_path;
+        $this->use_cache = $use_cache;
         $this->setType();
         $this->setHtml();
        
@@ -63,6 +68,9 @@ class CachedElemet {
         $this->cache_file_name = $this->cache_dir.'/'.$this->cache_file_name;
     }
     protected function getHtml(){
+        if(! $this->use_cache){
+            return file_get_contents($this->source);
+        }
         $this->defineCacheFileName();
         if(file_exists($this->cache_file_name)){
             return file_get_contents($this->cache_file_name);

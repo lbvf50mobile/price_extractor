@@ -54,7 +54,7 @@ foreach($html_cache as $key => $element){
 1. There is a `PriceExtractor\Parser` class. It constructors requries **html** string, and after parce it set **name** and **parse** properties.
 2. Object of `Parser` class comprice set of `ParseTools` object, each of them has a `test` method. This method evaluates "Do it possbile to parse incoming html?" At current moment 2 class existed
     -  ParseToolDump - class for developers needs.
-    - JsonLd - class for parsing JsonLd implementation of schema.
+    - **JsonLd** - class for parsing JsonLd implementation of schema.
     - **Microdata** class to parce Mircrodata pages.
 
 ```php
@@ -72,18 +72,15 @@ foreach($html_cache as $key => $element){
 }
 ```
 
-### First implementation of JsonLd parser:
+### JSON-LD algorithm:
 
-1. Find  all `//script[@type='application/ld+json']` elements in the HTML of the page and loop over them selecting appropriate.
-2. Check an `script` has
-    - `@context` == `'https://schema.org/'`
-    - `@type` ==  `'Product'`
-    - `name` 
-    - `offers`
-3. Check that offers is array or object, and check that it has `price`
-4. if **step 2** ans **step 3** are valid, get `name` and `price`
+Seach for @type==Product with Depth Frist Algorithm, that if @Product is found seach for price with second DFS.
 
-all steps implemented by functions.
+- Get **scipt** JSON-LD.
+- check **@context == chema.org**
+- travers down till find **@type == Product** with **name**
+- travers sub tree till find **@type == Offer** with **price**
+- ![tree-travesal](imgs/tree-traversal.png)
 
 
 

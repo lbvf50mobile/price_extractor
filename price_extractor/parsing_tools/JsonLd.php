@@ -52,7 +52,17 @@ class JsonLd{
         }
         $name = $this->node_is_valid_product_with_name($node);
         if($name){
+            $this->name_and_price_are_found = true;
             return array('name'=> $name, 'price' => "tmpPrice");
+        }else{
+            foreach($node as $element){
+                if(is_array($element)){
+                    $answer = $this->dfs_product($element);
+                    if($answer){
+                        return $answer;
+                    }
+                }
+            }
         }
         return false;
     }

@@ -33,18 +33,21 @@ class JsonLd{
         if(! $this->valid_schema($schema)){
             return false;
         }
-        return $this->dfs_for_product_name($schema);
+        return $this->dfs_for_product_name_and_price($schema);
     }
 
-    protected function dfs_for_product_name($node){
+    protected function dfs_for_product_name_and_price($node){
         $name = $this->node_is_valid_product_with_name($node);
-        if($name){
-            return array('name'=> $name, 'price' => "tmpPrice");
+        if(false !== $name){
+            $price = $this->dfs_for_offer_price($node);
+            if(false !== $price){
+                return array('name'=>$name, 'price'=>$price);
+            }
         }
         foreach($node as $element){
             if(is_array($element)){
-                $answer = $this->dfs_for_product_name($element);
-                if($answer){
+                $answer = $this->dfs_for_product_name_and_price($element);
+                if(false !== $answer){
                     return $answer;
                 }
             }
@@ -52,17 +55,16 @@ class JsonLd{
         return false;
     }
 
-    protected function dfs_for_offer_price($node, $answer){
+    protected function dfs_for_offer_price($node){
         $price = $this->node_is_valid_offer_with_price($node);
-        if($price){
-            $answer['price'] = $price;
-            return $answer;
+        if(false !== $price){
+            return $price;
         }
-        foreach($node as $elemen){
+        foreach($node as $element){
             if(is_array($element)){
-                $values = dfs_for_offer_price($element, $answer);
-                if($values){
-                    return $values;
+                $value = $this->dfs_for_offer_price($element);
+                if(false !== $value){
+                    return $value;
                 }
             }
         }

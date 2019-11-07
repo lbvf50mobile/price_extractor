@@ -24,6 +24,6 @@ urls.each do |file,url|
     page = Nokogiri::HTML(File.read(filepath))
     page.xpath('//script[@type="application/ld+json"]').each_with_index do |script,index|
         puts "#{index}.json #{script.class}".yellow
-        File.write("#{dir}/#{index}.json", script.to_s)
+        File.write("#{dir}/#{index}.json", script.text)
     end
 end

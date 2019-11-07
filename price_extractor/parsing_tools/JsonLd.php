@@ -40,13 +40,29 @@ class JsonLd{
         $name = $this->node_is_valid_product_with_name($node);
         if($name){
             return array('name'=> $name, 'price' => "tmpPrice");
-        }else{
-            foreach($node as $element){
-                if(is_array($element)){
-                    $answer = $this->dfs_for_product_name($element);
-                    if($answer){
-                        return $answer;
-                    }
+        }
+        foreach($node as $element){
+            if(is_array($element)){
+                $answer = $this->dfs_for_product_name($element);
+                if($answer){
+                    return $answer;
+                }
+            }
+        }
+        return false;
+    }
+
+    protected function dfs_for_offer_price($node, $answer){
+        $price = $this->node_is_valid_offer_with_price($node);
+        if($price){
+            $answer['price'] = $price;
+            return $answer;
+        }
+        foreach($node as $elemen){
+            if(is_array($element)){
+                $values = dfs_for_offer_price($element, $answer);
+                if($values){
+                    return $values;
                 }
             }
         }

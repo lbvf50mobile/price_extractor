@@ -58,6 +58,11 @@
 - `15:19` Set main questions and find aswers on them.
     - What is **Json Ld**?
     - What is **RDF**?
-        -  https://www.w3.org/RDF/
+        - https://www.w3.org/RDF/
+        - https://youtu.be/ldl0m-5zLz4
     - What is the main Structures at the [ProductPage](https://schema.org/Product)
     - What is the structures represented at the [shop.4auido](https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/) and [rcshop](https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/)
+
+- `15:35` Working with **JSON LD**
+    - https://json-ld.org/learn.html
+    - https://youtu.be/4x_xzT5eF5Q

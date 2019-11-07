@@ -6,6 +6,8 @@ class JsonLd{
     public $name;
     public $price;
 
+    protected $name_and_price_are_found;
+
 
     function __construct($dom,$xpath){
         $this->dom = $dom;
@@ -25,9 +27,32 @@ class JsonLd{
     protected function loop_over_xpaths(){
         foreach($this->scripts as $node){
             $schema = json_decode($node->nodeValue, true);
-            if($this->valid_schema($schema)){
+            $name_and_price = $this->schema_contains_product_name_and_offer_price($schema);
+            if($name_and_price){
+                $this->name = $name_and_price['name'];
+                $this->price = $name_and_price['price'];
                 return true;
             }
+        }
+        return false;
+    }
+
+    protected function schema_contains_product_name_and_offer_price($schema){
+        $this->name_and_price_are_found = false;
+        if(! $this->valid_schema($schema)){
+            return false;
+        }
+
+        return $this->dfs_product($schema);
+    }
+
+    protected function dfs_product($node){
+        if($this->name_and_price_are_found){
+            return false;
+        }
+        $name = $this->node_is_valid_product_with_name($node);
+        if($name){
+            return array('name'=> $name, 'price' => "tmpPrice");
         }
         return false;
     }
@@ -37,7 +62,7 @@ class JsonLd{
         return $this->key_has_value($schema,"@context", 'https://schema.org/');
     }
 
-    protected function node_is_valid_product($node){
+    protected function node_is_valid_product_with_name($node){
         $is_product = $this->key_has_value($node, "@type", 'Product');
         $has_name = $this->has_key($node,'name');
         if($is_product && $has_name){
@@ -46,7 +71,7 @@ class JsonLd{
         return false;
     }
 
-    protected function node_is_valid_offer($node){
+    protected function node_is_valid_offer_with_price($node){
         $is_offer = $this->key_has_value($node, "@type", 'Offer');
         $has_price = $this->has_key($node,'price');
         if($is_offer && $has_price){

@@ -56,7 +56,7 @@ foreach($html_cache as $key => $element){
 1. There is a `PriceExtractor\Parser` class. It's constructor requries **html** string, and after parcing it sets **name** and **price** properties.
 2. Object of `Parser` class comprice set of `ParseTools` objects, each of them has a `test` method. This method evaluates "Do it possbile to extract name/pice from the incoming html?" At current moment 2 class existed.
 3. If there is an object inside `ParceTools` able to extract name and price from the delivered html string, this name and price pair set as **name** and **price** properties of a **Parcer**. If there is no such object, name and price stays unset.
-    -  ParseToolDump - class for developers needs.
+    - **ParseToolDump** - class for developers needs.
     - **JsonLd** - class for parsing JsonLd implementation of schema.
     - **Microdata** class to parce Mircrodata pages.
 

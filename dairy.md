@@ -72,3 +72,10 @@
 - `17:17` I need to extract all JSON LD from the two pages.
     - `18:17` pause
     - `18:36` continue
+    - `19:20` have an I dea how to wield with different types of JSON-LD schemas.
+        - this is algorithm
+            - Get **scipt** JSON-LD.
+            - check **@context == chema.org**
+            - travers down till find **@type == Product** with **name**
+            - travers sub tree till find **@type == Offer** with **price**
+        - ![tree-travesal](imgs/tree-traversal.png)

@@ -60,6 +60,7 @@
     - What is **RDF**?
         - https://www.w3.org/RDF/
         - https://youtu.be/ldl0m-5zLz4
+        - http://rdfa.info/
     - What is the main Structures at the [ProductPage](https://schema.org/Product)
     - What is the structures represented at the [shop.4auido](https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/) and [rcshop](https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/)
 

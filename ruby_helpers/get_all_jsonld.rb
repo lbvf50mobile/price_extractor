@@ -3,19 +3,21 @@ urls = {
     'rcshoprs' => 'https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/'
 }
 
-p urls
 cur_dir = __dir__
 
 
-require 'net/http'
 require 'colorize'
-
+require 'nokogiri' 
 urls.each do |file,url|
-    p filepath ="#{cur_dir}/#{file}"
+    filepath ="#{cur_dir}/#{file}"
     if ! File.exist?(filepath)
-        puts "Downloading: %s" % [url.green]
-        uri = URI.parse(url)
-        p uri
-        content = Net::HTTP.get(uri)
+        puts "No such file %s" % file.red
+        next
+    else
+        puts "File exists %s" % file.green
     end
+    page = Nokogiri::HTML(File.read(filepath))
+    p page.class
+    p page.xpath('//script[@type="application/ld+json"]').class
+
 end

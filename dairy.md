@@ -72,7 +72,7 @@
 - `17:17` I need to extract all JSON LD from the two pages.
     - `18:17` pause
     - `18:36` continue
-    - `19:20` have an I dea how to wield with different types of JSON-LD schemas.
+    - `19:20 -> 21:20 1hr:40minutes` **DONE** have an I dea how to wield with different types of JSON-LD schemas.
         - this is algorithm
             - Get **scipt** JSON-LD.
             - check **@context == chema.org**

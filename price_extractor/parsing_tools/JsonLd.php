@@ -12,10 +12,6 @@ class JsonLd{
     function __construct($dom,$xpath){
         $this->dom = $dom;
         $this->xpath = $xpath;
-
-        $this->name = "Test";
-        $this->price = "1554";
-
     }
 
     function test(){

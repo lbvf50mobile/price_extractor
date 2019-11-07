@@ -55,7 +55,7 @@
 
 ### 2019.11.07 Thursday November
 
-- `15:19` Set main questions and find aswers on them.
+- `15:19`  `16:13 (pause) 1h; 17:02.`Set main questions and find aswers on them.
     - What is **Json Ld**?
     - What is **RDF**?
         - https://www.w3.org/RDF/
@@ -67,3 +67,6 @@
 - `15:35` Working with **JSON LD**
     - https://json-ld.org/learn.html
     - https://youtu.be/4x_xzT5eF5Q
+    - [What is JSON LD](https://youtu.be/vioCbTo3C-4)
+    - https://json-ld.org/playground/ I able to use N-Quads
+- `17:17` I need to extract all JSON LD from the two pages.

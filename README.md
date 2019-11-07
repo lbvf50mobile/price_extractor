@@ -75,7 +75,7 @@ foreach($html_cache as $key => $element){
 
 ### JSON-LD algorithm:
 
-Seach for @type==Product with Depth Frist Algorithm, that if @Product is found seach for price with second DFS.
+Seach for `@type == Product` with Depth Frist Search Algorithm, that if @Product is found seach for the `@type == Offer` with second DFS.
 
 - Get **scipt** JSON-LD.
 - check **@context == chema.org**

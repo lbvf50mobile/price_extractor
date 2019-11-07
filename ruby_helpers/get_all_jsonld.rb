@@ -17,7 +17,7 @@ urls.each do |file,url|
         puts "File exists %s" % file.green
     end
     page = Nokogiri::HTML(File.read(filepath))
-    p page.class
-    p page.xpath('//script[@type="application/ld+json"]').class
-
+    page.xpath('//script[@type="application/ld+json"]').each do |scr|
+        p scr.class
+    end
 end

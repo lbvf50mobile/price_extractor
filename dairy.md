@@ -79,3 +79,8 @@
             - travers down till find **@type == Product** with **name**
             - travers sub tree till find **@type == Offer** with **price**
         - ![tree-travesal](imgs/tree-traversal.png)
+
+
+### 2019.11.08 Frideay November
+
+- `17:16` Start simplifying `the start.php`

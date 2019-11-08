@@ -83,4 +83,5 @@
 
 ### 2019.11.08 Frideay November
 
-- `17:16` Start simplifying `the start.php`
+- `17:16`  Start simplifying `the start.php`
+    - `17:27` done spend 10 minutes;

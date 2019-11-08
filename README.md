@@ -20,8 +20,9 @@ I need simple PHP script that will return "Product name" and "Product price" fro
 ## Usage
 
 - `php start.php` - just run in CLI `start.php` scrip.
-- `$use_cache = false; // Use caching files or uppload all pages each time.` it's able to turn of a chache, so html content of the pages will be stored in cache files insinde the `price_extractor/cache` folder.
-- `$html_cache->clearCacheDirecotry();` it's able to clear cache folder by uncomenting this line.
+- `php start_with_cache.php` extended version with cache usage.
+    - `$use_cache = false; // Use caching files or uppload all pages each time.` it's able to turn of a chache, so html content of the pages will be stored in cache files insinde the `price_extractor/cache` folder.
+    - `$html_cache->clearCacheDirecotry();` it's able to clear cache folder by uncomenting this line.
 
 ### Classes:
 

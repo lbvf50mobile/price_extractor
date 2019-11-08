@@ -1,9 +1,5 @@
 <?php
 
-include('price_extractor/HtmlCahe.php');
-
-$use_cache = false; // Use caching files or uppload all pages each time.
-
 $sources_list = [
     "https://shop.4audio.rs/shop/slusalice/sennheiser-hd-4-40-bt-wireless/",
     "https://pcfoto.biz/boya-by-dmr7.html",
@@ -11,22 +7,14 @@ $sources_list = [
     "https://rcshop.rs/proizvod/dji-phantom-4-pro-plus-sa-dve-dodatne-baterije/"
 ];
 
-$html_cache = new PriceExtractor\Cache\HtmlCache($sources_list, $use_cache);
 
 include('price_extractor/Parser.php'); // Parser is responsible for ProductName/OfferPrice extraction from html;
 
-foreach($html_cache as $key => $element){
+foreach($sources_list as $key=>$source){
     echo $key."----------------------\n";
-    echo "SOURCE: $element->source \n";
-   // echo "CACHE_FILE_NAME: " . $element->getCacheName() ." \n";
-
-    $parser = new PriceExtractor\Parser($element->html);
-
+    $html = file_get_contents($source);
+    echo "SOURCE: $source \n";
+    $parser = new PriceExtractor\Parser($html);
     echo "NAME: $parser->name \n";
     echo "PRICE: $parser->price \n";
-
 }
-
-
-// !important! It is possble to clear the cache folder.
-// $html_cache->clearCacheDirecotry();

@@ -85,3 +85,8 @@
 
 - `17:16`  Start simplifying `the start.php`
     - `17:27` done spend 10 minutes;
+    - `17:35` wrote a letter to a Ian (10 minutes.)
+- `20:05` Working with documentaion.
+    - `20:16` [JSON-LD: Core Markup](https://youtu.be/UmvWk_TQ30A)
+    - `20:23` pause
+- `22:04` [JSON-LD: Compaction and Expansion](https://youtu.be/UmvWk_TQ30A)

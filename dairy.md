@@ -90,3 +90,8 @@
     - `20:16` [JSON-LD: Core Markup](https://youtu.be/UmvWk_TQ30A)
     - `20:23` pause
 - `22:04` [JSON-LD: Compaction and Expansion](https://youtu.be/UmvWk_TQ30A)
+
+### 2019.11.09 Saturday November
+
+- `15:55` Continue with JSON-LD
+    - [JSON-LD Linked DataScignatures](https://youtu.be/QdUZaYeQblY)

@@ -94,4 +94,4 @@
 ### 2019.11.09 Saturday November
 
 - `15:55` Continue with JSON-LD
-    - [JSON-LD Linked DataScignatures](https://youtu.be/QdUZaYeQblY)
+    - [JSON-LD Linked Data Signatures](https://youtu.be/QdUZaYeQblY)

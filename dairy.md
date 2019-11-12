@@ -95,3 +95,7 @@
 
 - `15:55` Continue with JSON-LD
     - [JSON-LD Linked Data Signatures](https://youtu.be/QdUZaYeQblY)
+
+### 2019.11.12 Tuesday November
+
+- `16:55` Continue with RDFa and http://schema.org/

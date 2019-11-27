@@ -99,3 +99,7 @@
 ### 2019.11.12 Tuesday November
 
 - `16:55` Continue with RDFa and http://schema.org/
+
+### 2019.11.27 Wednesday November
+
+- `16:55` Cointinue the project.
